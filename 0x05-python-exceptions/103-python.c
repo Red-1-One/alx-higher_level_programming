@@ -1,8 +1,3 @@
-/*
- * File: 103-python.c
- * Auth: Ridouane MESBAH
- */
-
 #include <Python.h>
 
 void print_python_list(PyObject *p);
@@ -106,3 +101,4 @@ void print_python_float(PyObject *p)
 			Py_DTSF_ADD_DOT_0, NULL);
 	printf("  value: %s\n", buffer);
 	PyMem_Free(buffer);
+}
